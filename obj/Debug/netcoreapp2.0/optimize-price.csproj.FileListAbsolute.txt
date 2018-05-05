@@ -1,0 +1,10 @@
+/home/wilhelm/Documents/optimize-price/obj/Debug/netcoreapp2.0/optimize-price.csproj.CoreCompileInputs.cache
+/home/wilhelm/Documents/optimize-price/obj/Debug/netcoreapp2.0/optimize-price.AssemblyInfoInputs.cache
+/home/wilhelm/Documents/optimize-price/obj/Debug/netcoreapp2.0/optimize-price.AssemblyInfo.cs
+/home/wilhelm/Documents/optimize-price/bin/Debug/netcoreapp2.0/optimize-price.deps.json
+/home/wilhelm/Documents/optimize-price/bin/Debug/netcoreapp2.0/optimize-price.runtimeconfig.json
+/home/wilhelm/Documents/optimize-price/bin/Debug/netcoreapp2.0/optimize-price.runtimeconfig.dev.json
+/home/wilhelm/Documents/optimize-price/bin/Debug/netcoreapp2.0/optimize-price.dll
+/home/wilhelm/Documents/optimize-price/bin/Debug/netcoreapp2.0/optimize-price.pdb
+/home/wilhelm/Documents/optimize-price/obj/Debug/netcoreapp2.0/optimize-price.dll
+/home/wilhelm/Documents/optimize-price/obj/Debug/netcoreapp2.0/optimize-price.pdb
