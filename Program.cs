@@ -18,16 +18,12 @@ namespace optimize_price {
 
         public static int optimizePrice (int[] price, int[] cost) {
 
-            var prijzen = price.Distinct ().OrderBy (p => p);
-            var klanten = new List<(int maxPrijs, int kosten)> ();
-
-            for (int i = 0; i < price.Length; i++) {
-                klanten.Add ((price[i], cost[i]));
-            }
+            var klanten = price.Zip (cost, (p, c) => new { maxPrijs = p, kosten = c });
 
             Nullable<int> maxPrijs = null;
             int maxWinst = 0;
 
+            var prijzen = price.Distinct ().OrderBy (p => p);
             foreach (var prijs in prijzen) {
                 var klantenDieKopen = klanten.Where (k => prijs <= k.maxPrijs);
                 var winstgevendeKlanten = klantenDieKopen.Where (k => (prijs - k.kosten) > 0);
