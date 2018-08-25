@@ -6,6 +6,7 @@ using System.Linq;
 namespace optimize_price {
     class Program {
         static void Main (string[] args) {
+            // Wat samples
             var eersteA = optimizePriceA (new [] { 10, 20, 30 }, new [] { 0, 0, 0 });
             var eersteB = optimizePriceB (new [] { 10, 20, 30 }, new [] { 0, 0, 0 });
             Console.WriteLine ($"Prijs = {eersteA}, {eersteB}");
