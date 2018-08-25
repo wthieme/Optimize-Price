@@ -8,3 +8,4 @@
 /home/wilhelm/Documents/optimize-price/bin/Debug/netcoreapp2.0/optimize-price.pdb
 /home/wilhelm/Documents/optimize-price/obj/Debug/netcoreapp2.0/optimize-price.dll
 /home/wilhelm/Documents/optimize-price/obj/Debug/netcoreapp2.0/optimize-price.pdb
+/home/wilhelm/Documents/optimize-price/obj/Debug/netcoreapp2.0/optimize-price.csprojResolveAssemblyReference.cache
